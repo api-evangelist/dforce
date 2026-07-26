@@ -1,8 +1,12 @@
 aid: dforce
 name: dForce
-description: 'dForce is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'dForce is a decentralized stablecoin protocol powered by an integrated DeFi matrix spanning
+  assets, lending, trading, and an omni-chain bridge. It positions itself as an AI-native on-chain capital
+  markets platform, unifying its USX USD-pegged stablecoin, permissionless lending markets, yield vaults,
+  a real-world-asset (RWA) marketplace, a DEX, the InteNet launchpad, and DF-native cross-chain bridging
+  under DAO governance driven by the DF token. dForce ships as smart contracts across multiple EVM chains
+  rather than a hosted REST API; its developer surface is on-chain contracts, open documentation, and the
+  dforce-network GitHub organization. Backed by Multicoin Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/dforce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,31 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://raw.githubusercontent.com/dforce-network/documents/master/logos/dForce/DF.svg
 tags:
 - Company
 - Crypto Web3
+- DeFi
+- Stablecoin
+- Lending
+- Blockchain
+- RWA
+- Bridge
+- Governance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dforce-domain-security.yml
 - type: Website
   url: https://dforce.network
+- type: DeveloperPortal
+  url: https://app.dforce.network
+- type: Documentation
+  url: https://docs.dforce.network
+- type: LLMsTxt
+  url: llms/dforce-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/dforce-network
+- type: Blog
+  url: https://medium.com/dforcenet
+- type: Support
+  url: https://forum.dforce.network/
+- type: X
+  url: https://x.com/dForcenet
+- type: Discord
+  url: https://discord.com/invite/c2PC8SM
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

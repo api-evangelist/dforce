@@ -40,6 +40,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://raw.githubusercontent.com/dforce-network/documents/master/logos/dForce/DF.svg
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-25
 tags:
 - Company
 - Crypto Web3
@@ -50,6 +53,8 @@ tags:
 - RWA
 - Bridge
 - Governance
+- Web3
+- Cryptocurrency
 tags_raw:
 - Company
 - Crypto Web3
@@ -60,6 +65,8 @@ tags_raw:
 - RWA
 - Bridge
 - Governance
+- Web3
+- Cryptocurrency
 apis: []
 maintainers:
 - FN: Kin Lane
